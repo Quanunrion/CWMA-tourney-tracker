@@ -1,0 +1,21 @@
+{
+  "name": "cwma-tourney-tracker",
+  "version": "0.1.0",
+  "description": "Karate tournament platform: front desk, ring brackets, and display control with a shared master list.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test test/*.test.js",
+    "demo": "node server/seed-demo.js data-demo --start"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "htm": "^3.1.1",
+    "preact": "^10.29.8",
+    "socket.io": "^4.8.4"
+  }
+}
